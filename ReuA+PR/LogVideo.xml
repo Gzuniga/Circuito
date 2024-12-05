@@ -1,0 +1,16 @@
+<VIDEO_LOG>
+  <LOG DATE="20230523 144556" PROCESS="Form1_Load" EVENT="System.Xml 'RUTA' is a duplicate attribute name. Line 35, position 117." />
+  <LOG DATE="20230613 154515" PROCESS="GetFullPath" EVENT=" No existe el archivo: C:\tsaCode\tsaVideoStudio\tsaVideoStudio\bin\Debug\Videos\" />
+  <LOG DATE="20230613 154517" PROCESS="GetFullPath" EVENT=" No existe el archivo: C:\tsaCode\tsaVideoStudio\tsaVideoStudio\bin\Debug\Videos\" />
+  <LOG DATE="20230613 154518" PROCESS="GetFullPath" EVENT=" No existe el archivo: C:\tsaCode\tsaVideoStudio\tsaVideoStudio\bin\Debug\Videos\" />
+  <LOG DATE="20230613 154519" PROCESS="GetFullPath" EVENT=" No existe el archivo: C:\tsaCode\tsaVideoStudio\tsaVideoStudio\bin\Debug\Videos\video3.mp4" />
+  <LOG DATE="20230613 154519" PROCESS="GetFullPath" EVENT=" No existe el archivo: C:\tsaCode\tsaVideoStudio\tsaVideoStudio\bin\Debug\Videos\Tema3.png" />
+  <LOG DATE="20230621 193553" PROCESS="GetFullPath" EVENT=" No existe el archivo: C:\tsaCode\tsaVideoStudio\tsaVideoStudio\bin\Debug\Videos\Tema.mp4" />
+  <LOG DATE="20230621 193556" PROCESS="GetFullPath" EVENT=" No existe el archivo: C:\tsaCode\tsaVideoStudio\tsaVideoStudio\bin\Debug\Videos\Reloj.mp4" />
+  <LOG DATE="20230621 193659" PROCESS="GetFullPath" EVENT=" No existe el archivo: C:\_JW\AR2023\AR2023\Videos\CO-v23_S_011_r720P.mp4" />
+  <LOG DATE="20230621 194405" PROCESS="GetFullPath" EVENT=" No existe el archivo: C:\_JW\AR2023\AR2023\Videos\CO-v23_S_011_r720P.mp4" />
+  <LOG DATE="20230621 194406" PROCESS="GetFullPath" EVENT=" No existe el archivo: C:\_JW\AR2023\AR2023\Videos\CO-v23_S_012_r720P.mp4" />
+  <LOG DATE="20230621 194407" PROCESS="GetFullPath" EVENT=" No existe el archivo: C:\_JW\AR2023\AR2023\Videos\CO-v23_S_013_r720P.mp4" />
+  <LOG DATE="20240116 112554" PROCESS="btSave_Click" EVENT="mscorlib Could not find a part of the path 'C:\Circuito\ESP2023 Clases\index.xml'." />
+  <LOG DATE="20240116 112558" PROCESS="btSave_Click" EVENT="mscorlib Could not find a part of the path 'C:\Circuito\ESP2023 Clases\index.xml'." />
+</VIDEO_LOG>

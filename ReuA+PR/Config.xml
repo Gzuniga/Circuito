@@ -1,0 +1,24 @@
+<Config>
+  <add key="Program" value="index.xml" />
+  <add key="SimpleUI" value="False" />
+  <add key="DurationAttribute" value="27" />
+  <add key="Maximize" value="False" />
+  <add key="Fullscreen" value="False" />
+  <add key="AutLoad" value="True" />
+  <add key="Video_Track" value="True" />
+  <add key="Video_Menu" value="True" />
+  <add key="Video_Keys" value="True" />
+  <add key="IconThemes" value="False" />
+  <add key="Split1Distance" value="656" />
+  <add key="Split2Distance" value="148" />
+  <add key="MainWidth" value="1252" />
+  <add key="MainHeight" value="690" />
+  <add key="Crono_X" value="-4" />
+  <add key="Crono_Y" value="-1" />
+  <add key="TimeFormat" value="hh\:mm\:ss" />
+</Config>
+<!--DurationAttribute:
+      XP:             21
+      Vista:          36
+      Windows 7,8,10: 27
+    -->
