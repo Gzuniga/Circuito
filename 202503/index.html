@@ -16,14 +16,13 @@
       <script src="build2/jquery-ui.js"></script>
       <script src="build2/jquery.jgrowl.js"></script>
       <script>
-        //var person='a';
-		//var phash = 0;
+		var phash = 0;
 		
-		//let person = prompt("Indique el primer texto que aparece en el sfl 16:1", "Validacion");
-		//if (person === null) {
-		//	person ="a";
-		//};
-		//phash = GetHash(person); 
+		let person = prompt("Indique el primer texto que aparece en el sfl 16:1", "Validacion");
+		if (person === null) {
+			person ="a";
+		};
+		phash = GetHash(person); 
 		 
   
 		$( function() {
@@ -84,7 +83,7 @@ Siempre es recomendable tener todos los archivos descargados para evitar inconve
          </ul>
          <div id='tab-V'>
             <div id='accordionV'>
-				<h3>Archivos del Martes</h3>
+			   <h3>Archivos del Martes</h3>
                <div>
                  
                   <table width='100%'>
@@ -99,6 +98,24 @@ Siempre es recomendable tener todos los archivos descargados para evitar inconve
 					<tr>
                         <td><a  class="LinkButton2" onclick="javascript:ChangeVideo('videos/Martes2.mp4');" title="Video 2 "> Video 2</a></td>
                      </tr>
+			 
+					
+                  </table>
+               </div> 
+			   
+			   <h3 id="secret1">Archivos de la Reuni&oacute;n de Ancianos</h3>
+               <div id="secret2">
+                 
+                  <table width='100%'>
+                     <colgroup>
+                        <col span='1' style='width:95%;'>
+                       
+                         
+                     </colgroup>
+                     <tr>
+                        <td><a  class="LinkButton2" onclick="javascript:ChangeVideo('videos/Ancianos.mp4');" title="Video 1 "> Cómo atacar un bosquejo</a></td>
+                     </tr>
+				
 			 
 					
                   </table>
@@ -155,16 +172,16 @@ Siempre es recomendable tener todos los archivos descargados para evitar inconve
    </body>
    
    <script>
-		//if (phash != 326881879) {
-		//	try{
-		//		
-		//		$("#secret1").remove();
-		//		$("#secret2").remove();
-		//		
-		//	} catch (e) {
-		//		alert("Error de validacion: " + e.description);
-		//	}
-		//};
+		if (phash != 326881879) {
+			try{
+				
+				$("#secret1").remove();
+				$("#secret2").remove();
+				
+			} catch (e) {
+				alert("Error de validacion: " + e.description);
+			}
+		};
 	</script>
 
 </html>
