@@ -18,11 +18,11 @@
       <script>
 		var phash = 0;
 		
-		//let person = prompt("Indique el primer texto que aparece en el sfl 16:1", "Validacion");
-		//if (person === null) {
-		//	person ="a";
-		//};
-		//phash = GetHash(person); 
+		let person = prompt("Indique el primer texto que aparece en el sfl 16:1", "Validacion");
+		if (person === null) {
+			person ="a";
+		};
+		phash = GetHash(person); 
 		 
   
 		$( function() {
@@ -217,7 +217,7 @@ Siempre es recomendable tener todos los archivos descargados para evitar inconve
       <br/>
    </body>
    
-   <!-- <script>
+  <script>
 		if (phash != 326881879) {
 			try{
 				
@@ -228,6 +228,6 @@ Siempre es recomendable tener todos los archivos descargados para evitar inconve
 				alert("Error de validacion: " + e.description);
 			}
 		};
-	</script> -->
+	</script> 
 
 </html>
