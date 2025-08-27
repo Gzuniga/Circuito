@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html style="padding-top:25px;">
+   <head>
+      <meta name="viewport" content="width=device-width">
+	  <meta name="description" content="En esta p&aacute;gina podr&aacute; encontrar los archivos necesarios para la proyecci&oacute;n durante la semana de la visita del superintendente de circuito. Por favor, entrege el enlace a esta p&aacute;gina al encargado de proyectar durante la visita para que pueda descargar los archivos con suficiente tiempo.">
+      <meta property="og:image" content="https://wol.jw.org/pap-x-paa/wol/mp/r197/lp-paa/kr/2015/240">
+	  <title>Visita circuito</title>
+      <link rel="stylesheet" href="build2/jquery-ui.css">
+      <link rel="stylesheet" href="build2/styleAccordion.css">
+      <link rel="stylesheet" href="build2/style.css" />
+      <link rel="stylesheet" href="build2/jquery.jgrowl.css"/>
+      <link rel="stylesheet" href="build2/stylePopup.css">
+      <link rel="stylesheet" href="build2/jquery.mobile-1.4.5.min.css">
+      <script src="build2/video.js" ></script>
+      <script src="build2/jquery-1.12.4.js"></script>
+      <script src="build2/jquery-ui.js"></script>
+      <script src="build2/jquery.jgrowl.js"></script>
+      <script>
+		var phash = 0;
+		
+		//let person = prompt("Indique el primer texto que aparece en el sfl 16:1", "Validacion");
+		//if (person === null) {
+		//	person ="a";
+		//};
+		//phash = GetHash(person); 
+		 
+  
+		$( function() {
+         	$( "#accordionV" ).accordion({
+         		heightStyle: "content",
+         		collapsible: true,
+         		active:false
+         	});
+         	 
+         	$( "#titulo" ).accordion({
+         	  heightStyle: "content"
+         	});
+         	$( "#tema" ).accordion({
+         	  heightStyle: "content"
+         	});
+         	$( "input" ).checkboxradio({
+         	  icon: false
+         	});
+         	 
+         	
+         } );
+         
+         
+         $( function() {
+         	$( "#tabs" ).tabs();
+         } );
+		   
+		
+		 
+		 
+		 
+           
+      </script>
+   </head>
+   <body class="Total">
+   
+      <center>
+         <div id="titulo" >
+            <h3>Visita de Circuito</h3>
+         </div>
+      </center>
+      <table style="padding-left:10px;">
+         <tr>
+		 <td>
+			<img src="https://wol.jw.org/pap-x-paa/wol/mp/r197/lp-paa/kr/2015/240" style="max-width:75px;">
+		 </td>
+            <td>
+               
+A continuaci&oacute;n, se presenta la lista de videos/im&aacute;genes a visualizar durante la visita.<br/>
+Por favor, entregue el enlace a esta p&aacute;gina al encargado de Audio y Video, durante la visita para que pueda descargar los archivos con suficiente tiempo.<br/>
+Siempre es recomendable tener todos los archivos descargados para evitar inconvenientes durante la semana.
+            </td>
+         </tr>
+      </table>
+      <div id="tabs" class="TabsAlign" >
+         <ul>
+            <li><a href='#tab-V'>Archivos para Audio/Video</a></li>
+         </ul>
+         <div id='tab-V'>
+            <div id='accordionV'>
+			   <h3>Archivos del Martes</h3>
+               <div>
+                 
+                  <table width='100%'>
+                     <colgroup>
+                        <col span='1' style='width:95%;'>
+                       
+                         
+                     </colgroup>
+                     <tr>
+                        <td><a  class="LinkButton2" onclick="javascript:ChangeVideo('videos/Martes1.mp4');" title="Video 1 "> Mostremos en la congregación el amor que nunca falla: A los mayores</a></td>
+                     </tr>
+				 
+			 
+					
+                  </table>
+               </div> 
+			   
+			   <h3 id="secret1">Archivos de la Reuni&oacute;n de Precursores</h3>
+               <div id="secret2">
+                 
+                  <table width='100%'>
+                     <colgroup>
+                        <col span='1' style='width:95%;'>
+                       
+                         
+                     </colgroup>
+                     <tr>
+                        <td><a  class="LinkButton2" onclick="javascript:ChangeVideo('videos/Prec01.mp4');" title="Video 1 "> Video 1. Seamos amorosos unos con otros: El amor no lleva cuenta del daño</a></td>
+                     </tr>
+					  <tr>
+                        <td><a  class="LinkButton2" onclick="javascript:ChangeVideo('videos/Prec02.mp4');" title="Video 2 "> Video 2. Los precursores fortalecen a la congregación</a></td>
+                     </tr>
+					  <tr>
+                        <td><a  class="LinkButton2" onclick="javascript:ChangeVideo('videos/Prec02.mp4');" title="Video 3 "> Video 3. Hagamos el bien a nuestros hermanos</a></td>
+                     </tr>
+				
+			 
+					
+                  </table>
+               </div> 
+			   
+			   <h3 id="secret1">Archivos de la Reuni&oacute;n de Ancianos</h3>
+               <div id="secret2">
+                 
+                  <table width='100%'>
+                     <colgroup>
+                        <col span='1' style='width:95%;'>
+                       
+                         
+                     </colgroup>
+                     <tr>
+                        <td><a  class="LinkButton2" onclick="javascript:ChangeVideo('videos/Viernes_ASM.mp4');" title="Video 1 "> De inactivo a publicador activo y espiritualmente fuerte</a></td>
+                     </tr>
+				
+			 
+					
+                  </table>
+               </div> 
+			   
+			                   
+			   <h3>Archivos del Discurso P&uacute;blico</h3>
+               <div>
+                  <!-- lista de discursos -->	
+                  <table width='100%'>
+                     <colgroup>
+                         <col span='1' style='width:95%;'>
+                        
+                     </colgroup>
+
+                     <tr>
+                        <td><a  class="LinkButton2" onclick="javascript:ChangeVideo('videos/Publico.jpg');" title="Imagen"> Imagen</a></td>
+                     </tr>
+					  <tr>
+                        <td><a  class="LinkButton2" onclick="javascript:ChangeVideo('videos/Publico01.mp4');" title="Imagen"> Video 1. ¿Qué lo ayudará a tener éxito en la vida? (Parte 1)</td>
+                     </tr>
+					 <tr>
+                        <td><a  class="LinkButton2" onclick="javascript:ChangeVideo('videos/Publico02.mp4');" title="Imagen"> Video 2. ¿Qué lo ayudará a tener éxito en la vida? (Parte 2)</td>
+                     </tr>
+				
+					 
+                     
+                  </table>
+				   
+               </div>
+			   
+			   <h3>Archivos del Discurso Final</h3>
+               <div>
+                  <!-- lista de discursos -->	
+                  <table width='100%'>
+                     <colgroup>
+                         <col span='1' style='width:95%;'>
+                        
+                     </colgroup>
+
+                     <tr>
+                        <td><a  class="LinkButton2" onclick="javascript:ChangeVideo('videos/ABFinal1.jpg');" title="Imagen 1"> Imagen 1</a></td>
+                     </tr>
+					<tr>
+                        <td><a  class="LinkButton2" onclick="javascript:ChangeVideo('videos/ABFinal2.jpg');" title="Imagen 2"> Imagen 2</a></td>
+                     </tr>
+				
+					 
+                     
+                  </table>
+				   
+               </div>
+	
+			   
+            </div>
+         </div>
+      </div>
+      <p />
+      <p />
+	  
+	  <table style="padding-left:10px;font-size:13px;">
+         <tr>
+            <td>
+			<!-- <p style="padding-left:10px;font-size:13px;">
+				  <b>Importante:</b> puede descargar estos archivos para JW Library desde el sitio <a href="https://my.jw.org" target="blank">https://my.jw.org</a> en Archivos Multimedia como 
+				        <font style="font-style: italic;  color: cadetblue;">S-319-22mp - Archivos multimedia para los discursos p&uacute;blicos del superintendente de circuito 2021-2022.</font> <br/>
+						Desde JW Library puede mostrar las im&aacute;genes, adem&aacute;s, puede importar el video "Video - Predicaci&oacute;n" para proyectar directamente desde JW Library.
+                  </p>    
+				   -->
+              Cualquier duda o consulta, por favor, comun&iacute;quese con el superintendente de circuito lo antes posible.<br/>
+            </td>
+         </tr>
+      </table>
+	  
+         <br/>
+      <div id="endPage">
+      <br/>
+   </body>
+   
+   <!-- <script>
+		if (phash != 326881879) {
+			try{
+				
+				$("#secret1").remove();
+				$("#secret2").remove();
+				
+			} catch (e) {
+				alert("Error de validacion: " + e.description);
+			}
+		};
+	</script> -->
+
+</html>
